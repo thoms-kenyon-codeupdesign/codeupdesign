@@ -11,7 +11,8 @@
 }
 
 body {
-    background: #f0f0f0;
+    /*background: #f0f0f0;*/
+    background: #e7e7e7;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -54,9 +55,6 @@ ul .nav-link{
     padding: .5em;
 
 }
-ul {
-
-}
 
 ul .badge {
     border-radius: 50%;
@@ -71,9 +69,21 @@ h5 {
 }
 
 div .row li {
-    margin: .5em 1em
+    margin: .01em 1em
 }
 div .row ul{
-    margin-bottom:.5em;
-    margin-top:.5em;
+    margin-bottom:.1em;
+    margin-top:.3em;
+}
+
+.ipad {
+    margin-top: 2em;
+    border: 10px solid #ddddde;
+    border-radius: 10px;
+    width: 85%;
+    height: auto;
+}
+
+.selected-work {
+    font-size: 16px;
 }
