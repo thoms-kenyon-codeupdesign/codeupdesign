@@ -56,7 +56,7 @@ ul .nav-link{
 
 }
 
-ul .badge {
+div .row ul .badge {
     border-radius: 50%;
     height: 105px;
     width: 105px;
@@ -69,14 +69,17 @@ h5 {
 }
 
 div .row li {
-    margin: .01em 1em
+    margin: .01em 1em;
+
 }
 div .row ul{
     margin-bottom:.1em;
     margin-top:.3em;
+
 }
 
 .ipad {
+    margin-left: auto;
     margin-top: 2em;
     border: 10px solid #ddddde;
     border-radius: 10px;
@@ -85,5 +88,9 @@ div .row ul{
 }
 
 .selected-work {
+    font-size: 16px;
+}
+
+.showcase {
     font-size: 16px;
 }
