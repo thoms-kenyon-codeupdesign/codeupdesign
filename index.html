@@ -11,29 +11,38 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<div class="logo-banner">
-    <header class="logo">
-        <img src="assets/logo.png" height="105px" width="105px" alt="logo"/>
-    </header>
-</div>
-<div class="container">
-    <nav>
-        <p class="brand-name  text-center">codeup design</p>
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
+<div class="d-flex flex-wrap">
+    <div class="logo-banner d-flex justify-content-center">
+        <ul class="nav d-none d-sm-flex justify-content-center align-items-center">
+            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Work</a></li>
+            <li class="filler-item"></li>
+            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
         </ul>
-    </nav>
+        <header class="logo d-flex">
+            <img src="assets/logo.png" height="105px" width="105px" alt="logo"/>
+        </header>
+    </div>
+    <div class="container">
+        <nav>
+            <p class="brand-name  text-center">codeup design</p>
+            <ul class="nav d-sm-none justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </div>
 <div class="container">
     <div class="jumbotron text-center pb-0" style="background-color:#e7e7e7">
