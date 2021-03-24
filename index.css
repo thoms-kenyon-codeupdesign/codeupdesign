@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo {
-    position: relative;
+    position: absolute;
     left: calc(50% - 52.5px);
 }
 
@@ -84,7 +84,7 @@ div .row ul{
     border: 10px solid #ddddde;
     border-radius: 10px;
     width: 400px;
-    /*height: auto;*/
+    /*height: 200px;*/
 }
 
 .selected-work {
@@ -93,4 +93,9 @@ div .row ul{
 
 .showcase {
     font-size: 16px;
+}
+
+.filler-item {
+    width: 10em;
+    text-align: center;
 }
