@@ -79,12 +79,12 @@ div .row ul{
 }
 
 .ipad {
-    margin-left: auto;
+    /*margin-left: auto;*/
     margin-top: 2em;
     border: 10px solid #ddddde;
     border-radius: 10px;
-    width: 85%;
-    height: auto;
+    width: 400px;
+    /*height: auto;*/
 }
 
 .selected-work {
