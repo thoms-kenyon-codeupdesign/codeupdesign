@@ -6,96 +6,465 @@
 /*    border-radius: 50%;*/
 /*}*/
 
-* {
-    box-sizing: border-box;
+@media screen and (max-width: 575px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        /*background: #f0f0f0;*/
+        background: #e7e7e7;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-family: "Abel", sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "Anton", sans-serif;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 32px;
+    }
+
+    h5 {
+        font-size: 28px;
+    }
+
+    .logo-banner {
+        width: 100%;
+        height: 3.7em;
+        display: flex;
+        align-items: center;
+        background: #ffffff;
+        margin-top: 2em;
+    }
+
+    .badge {
+        border-radius: 50%;
+        height: 18px;
+        width: 18px;
+        color: black;
+    }
+
+    .logo {
+        position: absolute;
+        left: calc(50% - 52.5px);
+    }
+
+    p {
+        margin-top: .5em;
+        margin-bottom: 0;
+        font-size: 2.5em;
+    }
+
+
+    ul .nav-link {
+        color: black;
+        /*padding: .5em;*/
+
+    }
+
+    div .row ul .badge {
+        border-radius: 50%;
+        height: 105px;
+        width: 105px;
+        color: black;
+        border: white 5px solid;
+    }
+
+    h5 {
+        color: white;
+    }
+
+    div .row li {
+        margin: .01em 1em;
+
+    }
+
+    div .row ul {
+        margin-bottom: .1em;
+        margin-top: .3em;
+
+    }
+
+    .ipad {
+        /*margin-left: auto;*/
+        margin-top: 2em;
+        border: 10px solid #ddddde;
+        border-radius: 10px;
+        width: 400px;
+        /*height: 200px;*/
+    }
+
+    .selected-work {
+        font-size: 16px;
+    }
+
+    .showcase {
+        font-size: 16px;
+    }
+
+    .filler-item {
+        width: 10em;
+        text-align: center;
+    }
 }
 
-body {
-    /*background: #f0f0f0;*/
-    background: #e7e7e7;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    font-family: Abel;
+@media screen and (max-width: 767px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        /*background: #f0f0f0;*/
+        background: #e7e7e7;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-family: "Abel", sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "Anton", sans-serif;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 32px;
+    }
+
+    h5 {
+        font-size: 28px;
+    }
+
+    .logo-banner {
+        width: 100%;
+        height: 3.7em;
+        display: flex;
+        align-items: center;
+        background: #ffffff;
+        margin-top: 2em;
+    }
+
+    .badge {
+        border-radius: 50%;
+        height: 18px;
+        width: 18px;
+        color: black;
+    }
+
+    .logo {
+        position: absolute;
+        left: calc(50% - 52.5px);
+    }
+
+    p {
+        margin-top: .5em;
+        margin-bottom: 0;
+        font-size: 2.5em;
+    }
+
+
+    ul .nav-link {
+        color: black;
+        /*padding: .5em;*/
+
+    }
+
+    div .row ul .badge {
+        border-radius: 50%;
+        height: 105px;
+        width: 105px;
+        color: black;
+        border: white 5px solid;
+    }
+
+    h5 {
+        color: white;
+    }
+
+    div .row li {
+        margin: .01em 1em;
+
+    }
+
+    div .row ul {
+        margin-bottom: .1em;
+        margin-top: .3em;
+
+    }
+
+    .ipad {
+        /*margin-left: auto;*/
+        margin-top: 2em;
+        border: 10px solid #ddddde;
+        border-radius: 10px;
+        width: 400px;
+        /*height: 200px;*/
+    }
+
+    .selected-work {
+        font-size: 16px;
+    }
+
+    .showcase {
+        font-size: 16px;
+    }
+
+    .filler-item {
+        width: 10em;
+        text-align: center;
+    }
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: Anton;
+
+@media screen and (max-width: 991px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        /*background: #f0f0f0;*/
+        background: #e7e7e7;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-family: "Abel", sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "Anton", sans-serif;
+    }
+    h1 {
+        font-size: 64px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 32px;
+    }
+
+    h5 {
+        font-size: 28px;
+    }
+
+    .logo-banner {
+        width: 100%;
+        height: 3.7em;
+        display: flex;
+        align-items: center;
+        background: #ffffff;
+        margin-top: 2em;
+    }
+
+    .badge {
+        border-radius: 50%;
+        height: 18px;
+        width: 18px;
+        color: black;
+    }
+
+    p {
+        font-size: 2.5em;
+    }
+
+
+    ul .nav-link {
+        color: black;
+        /*padding: .5em;*/
+
+    }
+
+    div .row ul .badge {
+        border-radius: 50%;
+        height: 105px;
+        width: 105px;
+        color: black;
+        border: white 5px solid;
+    }
+
+    h5 {
+        color: white;
+    }
+
+    div .row li {
+        margin: .01em 1em;
+
+    }
+
+    div .row ul {
+        margin-bottom: .1em;
+        margin-top: .3em;
+
+    }
+
+    .ipad {
+        /*margin-left: auto;*/
+        margin-top: 2em;
+        border: 10px solid #ddddde;
+        border-radius: 10px;
+        width: 400px;
+        /*height: 200px;*/
+    }
+
+    .selected-work {
+        font-size: 16px;
+    }
+
+    .showcase {
+        font-size: 16px;
+    }
+
+    .filler-item {
+        width: 10em;
+        text-align: center;
+    }
+
+    header .logo {
+        display: flex;
+    }
 }
 
-.logo-banner {
-    width:100%;
-    height: 3.7em;
-    display: flex;
-    align-items: center;
-    background: #ffffff;
-    margin-top: 2em;
-}
+@media screen and (max-width: 2000px) {
+    * {
+        box-sizing: border-box;
+    }
 
-.badge {
-    border-radius: 50%;
-    height: 18px;
-    width: 18px;
-    color:black;
-}
+    body {
+        /*background: #f0f0f0;*/
+        background: #e7e7e7;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-family: "Abel", sans-serif;
+    }
 
-.logo {
-    position: absolute;
-    left: calc(50% - 52.5px);
-}
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "Anton", sans-serif;
+    }
+    h1 {
+        font-size: 64px;
+    }
 
-p {
-    margin-top: .5em;
-    margin-bottom: 0;
-    font-size: 2.5em;
-}
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 32px;
+    }
+
+    h5 {
+        font-size: 28px;
+    }
+    h6 {
+        font-size: 24px;
+        color: white;
+    }
+
+    .logo-banner {
+        width: 100%;
+        height: 3.7em;
+        display: flex;
+        align-items: center;
+        background: #ffffff;
+        margin-top: 2em;
+    }
+
+    .badge {
+        border-radius: 50%;
+        height: 18px;
+        width: 18px;
+        color: black;
+    }
+
+    p {
+        font-size: 2.5em;
+    }
 
 
-ul .nav-link{
-    color: black;
-    padding: .5em;
+    ul .nav-link {
+        color: black;
+    }
 
-}
+    div .row ul .badge {
+        border-radius: 50%;
+        height: 105px;
+        width: 105px;
+        color: black;
+        border: white 5px solid;
+    }
 
-div .row ul .badge {
-    border-radius: 50%;
-    height: 105px;
-    width: 105px;
-    color:black;
-    border: white 5px solid;
-}
+    div .row li {
+        margin: .01em 1em;
 
-h5 {
-    color: white;
-}
 
-div .row li {
-    margin: .01em 1em;
+    }
 
-}
-div .row ul{
-    margin-bottom:.1em;
-    margin-top:.3em;
+    div .row ul {
+        margin-bottom: .1em;
+        margin-top: .3em;
+    }
 
-}
+    .ipad {
+        /*margin-left: auto;*/
+        margin-top: 2em;
+        border: 10px solid #ddddde;
+        border-radius: 10px;
+        width: 400px;
+        /*height: 200px;*/
+    }
 
-.ipad {
-    /*margin-left: auto;*/
-    margin-top: 2em;
-    border: 10px solid #ddddde;
-    border-radius: 10px;
-    width: 400px;
-    /*height: 200px;*/
-}
+    .selected-work {
+        font-size: 16px;
+    }
 
-.selected-work {
-    font-size: 16px;
-}
+    .showcase {
+        font-size: 16px;
+    }
 
-.showcase {
-    font-size: 16px;
-}
+    .filler-item {
+        width: 10em;
+        text-align: center;
+    }
 
-.filler-item {
-    width: 10em;
-    text-align: center;
+    header .logo {
+        display: flex;
+    }
 }
