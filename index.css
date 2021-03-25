@@ -107,8 +107,8 @@
         margin-top: 2em;
         border: 10px solid #ddddde;
         border-radius: 10px;
-        width: 400px;
-        /*height: 200px;*/
+        width: 100%;
+        height: auto;
     }
 
     .selected-work {
@@ -225,8 +225,8 @@
         margin-top: 2em;
         border: 10px solid #ddddde;
         border-radius: 10px;
-        width: 400px;
-        /*height: 200px;*/
+        width: 100%;
+        height: auto;
     }
 
     .selected-work {
@@ -335,8 +335,8 @@
         margin-top: 2em;
         border: 10px solid #ddddde;
         border-radius: 10px;
-        width: 400px;
-        /*height: 200px;*/
+        width: 100%;
+        height: auto;
     }
 
     .selected-work {
@@ -447,12 +447,13 @@
         margin-top: 2em;
         border: 10px solid #ddddde;
         border-radius: 10px;
-        width: 400px;
-        /*height: 200px;*/
+        width: 100%;
+        height: auto;
     }
 
     .selected-work {
         font-size: 16px;
+
     }
 
     .showcase {
