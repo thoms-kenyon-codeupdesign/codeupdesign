@@ -373,6 +373,11 @@
         height: 50px;
         width: 50px;
         margin-top: 2em;
+        border: 1px solid #d5d5d6
+    }
+
+    .black {
+        color: black;
     }
 }
 
