@@ -45,6 +45,15 @@
         font-size: 28px;
     }
 
+    h5 {
+        color: white;
+    }
+
+    h6 {
+        color: white;
+        margin-bottom: 0;
+    }
+
     .logo-banner {
         width: 100%;
         height: 3.7em;
@@ -85,10 +94,6 @@
         width: 105px;
         color: black;
         border: white 5px solid;
-    }
-
-    h5 {
-        color: white;
     }
 
     div .row li {
@@ -171,9 +176,14 @@
         font-size: 32px;
     }
 
-    h5 {
-        font-size: 28px;
+    h6 {
+        color: white;
+        margin-bottom: 0
     }
+
+    /*h5 {*/
+    /*    font-size: 28px;*/
+    /*}*/
 
     .logo-banner {
         width: 100%;
@@ -253,9 +263,13 @@
         width: 10em;
         text-align: center;
     }
+
+    .container {
+        width: 100%;
+    }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 768px) {
     * {
         box-sizing: border-box;
     }
@@ -290,6 +304,11 @@
 
     h5 {
         font-size: 28px;
+    }
+
+    h6 {
+        color: white;
+        margin-bottom: 0
     }
 
     .logo-banner {
@@ -386,115 +405,115 @@
     }
 }
 
-@media screen and (max-width: 2000px) {
-    * {
-        box-sizing: border-box;
-    }
+/*@media screen and (max-width: 2000px) {*/
+/*    * {*/
+/*        box-sizing: border-box;*/
+/*    }*/
 
-    body {
-        /*background: #f0f0f0;*/
-        background: #e7e7e7;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        font-family: "Abel", sans-serif;
-    }
+/*    body {*/
+/*        !*background: #f0f0f0;*!*/
+/*        background: #e7e7e7;*/
+/*        margin: 0;*/
+/*        padding: 0;*/
+/*        width: 100%;*/
+/*        font-family: "Abel", sans-serif;*/
+/*    }*/
 
-    h1, h2, h3, h4, h5, h6 {
-        font-family: "Anton", sans-serif;
-    }
-    h1 {
-        font-size: 64px;
-    }
+/*    h1, h2, h3, h4, h5, h6 {*/
+/*        font-family: "Anton", sans-serif;*/
+/*    }*/
+/*    h1 {*/
+/*        font-size: 64px;*/
+/*    }*/
 
-    h2 {
-        font-size: 48px;
-    }
+/*    h2 {*/
+/*        font-size: 48px;*/
+/*    }*/
 
-    h3 {
-        font-size: 40px;
-    }
+/*    h3 {*/
+/*        font-size: 40px;*/
+/*    }*/
 
-    h4 {
-        font-size: 32px;
-    }
+/*    h4 {*/
+/*        font-size: 32px;*/
+/*    }*/
 
-    h5 {
-        font-size: 28px;
-    }
-    h6 {
-        font-size: 24px;
-        color: white;
-    }
+/*    h5 {*/
+/*        font-size: 28px;*/
+/*    }*/
+/*    h6 {*/
+/*        font-size: 24px;*/
+/*        color: white;*/
+/*    }*/
 
-    .logo-banner {
-        width: 100%;
-        height: 3.7em;
-        display: flex;
-        align-items: center;
-        background: #ffffff;
-        margin-top: 2em;
-    }
+/*    .logo-banner {*/
+/*        width: 100%;*/
+/*        height: 3.7em;*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*        background: #ffffff;*/
+/*        margin-top: 2em;*/
+/*    }*/
 
-    .badge {
-        border-radius: 50%;
-        height: 18px;
-        width: 18px;
-        color: black;
-    }
+/*    .badge {*/
+/*        border-radius: 50%;*/
+/*        height: 18px;*/
+/*        width: 18px;*/
+/*        color: black;*/
+/*    }*/
 
-    p {
-        font-size: 2.5em;
-    }
-
-
-    ul .nav-link {
-        color: black;
-    }
-
-    div .row ul .badge {
-        border-radius: 50%;
-        height: 105px;
-        width: 105px;
-        color: black;
-        border: white 5px solid;
-    }
-
-    div .row li {
-        margin: .01em 1em;
+/*    p {*/
+/*        font-size: 2.5em;*/
+/*    }*/
 
 
-    }
+/*    ul .nav-link {*/
+/*        color: black;*/
+/*    }*/
 
-    div .row ul {
-        margin-bottom: .1em;
-        margin-top: .3em;
-    }
+/*    div .row ul .badge {*/
+/*        border-radius: 50%;*/
+/*        height: 105px;*/
+/*        width: 105px;*/
+/*        color: black;*/
+/*        border: white 5px solid;*/
+/*    }*/
 
-    .ipad {
-        /*margin-left: auto;*/
-        margin-top: 2em;
-        border: 10px solid #ddddde;
-        border-radius: 10px;
-        width: 100%;
-        height: auto;
-    }
+/*    div .row li {*/
+/*        margin: .01em 1em;*/
 
-    .selected-work {
-        font-size: 16px;
 
-    }
+/*    }*/
 
-    .showcase {
-        font-size: 16px;
-    }
+/*    div .row ul {*/
+/*        margin-bottom: .1em;*/
+/*        margin-top: .3em;*/
+/*    }*/
 
-    .filler-item {
-        width: 10em;
-        text-align: center;
-    }
+/*    .ipad {*/
+/*        !*margin-left: auto;*!*/
+/*        margin-top: 2em;*/
+/*        border: 10px solid #ddddde;*/
+/*        border-radius: 10px;*/
+/*        width: 100%;*/
+/*        height: auto;*/
+/*    }*/
 
-    header .logo {
-        display: flex;
-    }
-}
+/*    .selected-work {*/
+/*        font-size: 16px;*/
+
+/*    }*/
+
+/*    .showcase {*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    .filler-item {*/
+/*        width: 10em;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    header .logo {*/
+/*        display: flex;*/
+/*    }*/
+/*}*/
