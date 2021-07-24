@@ -112,7 +112,9 @@
         margin-top: 2em;
         border: 10px solid #ddddde;
         border-radius: 10px;
-        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
         height: auto;
     }
 
@@ -235,9 +237,25 @@
         margin-top: 2em;
         border: 10px solid #ddddde;
         border-radius: 10px;
-        width: 100%;
-        height: 100%;
-        object-fit: cover
+        max-width: 100%;
+        max-height: 100%;
+        /*overflow: hidden;*/
+        width: auto;
+        height: auto;
+        /*background-position: center center*/
+    }
+
+    div.crop {
+        /*margin-left: auto;*/
+        margin-top: 2em;
+        border: 10px solid #ddddde;
+        border-radius: 10px;
+        max-width: 100%;
+        max-height: 100%;
+        overflow: hidden;
+        /*width: auto;*/
+        /*height: auto;*/
+        background-position: center center
     }
 
     .selected-work {
@@ -355,8 +373,10 @@
         margin-top: 2em;
         border: 10px solid #ddddde;
         border-radius: 10px;
-        width: 100%;
-        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
     }
 
     .selected-work {
@@ -392,122 +412,4 @@
     div.articles > div {
         margin-top: 18px
     }
-
-    .container {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
 }
-
-/*@media screen and (max-width: 2000px) {*/
-/*    * {*/
-/*        box-sizing: border-box;*/
-/*    }*/
-
-/*    body {*/
-/*        !*background: #f0f0f0;*!*/
-/*        background: #e7e7e7;*/
-/*        margin: 0;*/
-/*        padding: 0;*/
-/*        width: 100%;*/
-/*        font-family: "Abel", sans-serif;*/
-/*    }*/
-
-/*    h1, h2, h3, h4, h5, h6 {*/
-/*        font-family: "Anton", sans-serif;*/
-/*    }*/
-/*    h1 {*/
-/*        font-size: 64px;*/
-/*    }*/
-
-/*    h2 {*/
-/*        font-size: 48px;*/
-/*    }*/
-
-/*    h3 {*/
-/*        font-size: 40px;*/
-/*    }*/
-
-/*    h4 {*/
-/*        font-size: 32px;*/
-/*    }*/
-
-/*    h5 {*/
-/*        font-size: 28px;*/
-/*    }*/
-/*    h6 {*/
-/*        font-size: 24px;*/
-/*        color: white;*/
-/*    }*/
-
-/*    .logo-banner {*/
-/*        width: 100%;*/
-/*        height: 3.7em;*/
-/*        display: flex;*/
-/*        align-items: center;*/
-/*        background: #ffffff;*/
-/*        margin-top: 2em;*/
-/*    }*/
-
-/*    .badge {*/
-/*        border-radius: 50%;*/
-/*        height: 18px;*/
-/*        width: 18px;*/
-/*        color: black;*/
-/*    }*/
-
-/*    p {*/
-/*        font-size: 2.5em;*/
-/*    }*/
-
-
-/*    ul .nav-link {*/
-/*        color: black;*/
-/*    }*/
-
-/*    div .row ul .badge {*/
-/*        border-radius: 50%;*/
-/*        height: 105px;*/
-/*        width: 105px;*/
-/*        color: black;*/
-/*        border: white 5px solid;*/
-/*    }*/
-
-/*    div .row li {*/
-/*        margin: .01em 1em;*/
-
-
-/*    }*/
-
-/*    div .row ul {*/
-/*        margin-bottom: .1em;*/
-/*        margin-top: .3em;*/
-/*    }*/
-
-/*    .ipad {*/
-/*        !*margin-left: auto;*!*/
-/*        margin-top: 2em;*/
-/*        border: 10px solid #ddddde;*/
-/*        border-radius: 10px;*/
-/*        width: 100%;*/
-/*        height: auto;*/
-/*    }*/
-
-/*    .selected-work {*/
-/*        font-size: 16px;*/
-
-/*    }*/
-
-/*    .showcase {*/
-/*        font-size: 16px;*/
-/*    }*/
-
-/*    .filler-item {*/
-/*        width: 10em;*/
-/*        text-align: center;*/
-/*    }*/
-
-/*    header .logo {*/
-/*        display: flex;*/
-/*    }*/
-/*}*/
