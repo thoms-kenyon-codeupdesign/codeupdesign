@@ -130,18 +130,6 @@
     }
 }
 
-#man {
-    background-image: url("assets/images/man.jpg");
-    background-size: cover;
-    height: 166px;
-    width: 240px;
-    margin-top: 2em;
-    border: 10px solid #ddddde;
-    border-radius: 10px;
-    /*width: 100%;*/
-    /*height: auto;*/
-}
-
 @media screen and (max-width: 767px) {
     * {
         box-sizing: border-box;
@@ -176,14 +164,14 @@
         font-size: 32px;
     }
 
+    h5 {
+        font-size: 28px;
+    }
+
     h6 {
         color: white;
         margin-bottom: 0
     }
-
-    /*h5 {*/
-    /*    font-size: 28px;*/
-    /*}*/
 
     .logo-banner {
         width: 100%;
@@ -248,7 +236,8 @@
         border: 10px solid #ddddde;
         border-radius: 10px;
         width: 100%;
-        height: 100%
+        height: 100%;
+        object-fit: cover
     }
 
     .selected-work {
@@ -406,7 +395,7 @@
 
     .container {
         padding-left: 5%;
-        padding-right: 5%
+        padding-right: 5%;
     }
 }
 
