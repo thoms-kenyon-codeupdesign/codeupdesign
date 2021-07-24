@@ -130,17 +130,17 @@
     }
 }
 
-/*#man {*/
-/*    background-image: url("assets/images/man.jpg");*/
-/*    background-size: cover;*/
-/*    height: 166px;*/
-/*    width: 240px;*/
-/*    margin-top: 2em;*/
-/*    border: 10px solid #ddddde;*/
-/*    border-radius: 10px;*/
-/*    !*width: 100%;*!*/
-/*    !*height: auto;*!*/
-/*}*/
+#man {
+    background-image: url("assets/images/man.jpg");
+    background-size: cover;
+    height: 166px;
+    width: 240px;
+    margin-top: 2em;
+    border: 10px solid #ddddde;
+    border-radius: 10px;
+    /*width: 100%;*/
+    /*height: auto;*/
+}
 
 @media screen and (max-width: 767px) {
     * {
@@ -402,6 +402,11 @@
 
     div.articles > div {
         margin-top: 18px
+    }
+
+    .container {
+        padding-left: 5%;
+        padding-right: 5%
     }
 }
 
